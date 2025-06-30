@@ -15,7 +15,7 @@
     <div class="main">
          <div class="sidebar">
             <div class="nav">
-                <div class="nav-option">
+                <div class="nav-option" style ="opacity:1">
                     <i class="fa-solid fa-house"></i>
                     <a href="#">Home</a>
                 </div>
@@ -26,7 +26,7 @@
             </div>
             <div class="library">
                 <div class="options">
-                    <div class="lib-option nav-option">
+                    <div class="lib-option  nav-option">
                          <image src="./assets/library_icon.png" />
                         <a href="#">Your library</a>
                     </div>
@@ -41,10 +41,32 @@
                         <p class="box-p2">It's easy we'll help you</p>
                         <button class="badge">Create playlist</button>
                     </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
                 </div>
             </div>
          </div>
-         <div class="main-content">main-content</div>
+
+         <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <image src="./assets/backward_icon.png" />
+                    <image src="./assets/forward_icon.png" class="hide" />
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-solid fa-circle-arrow-down"  style="margin-right: 5px;"></i></i>Install App</button>
+                 <i class="fa-regular fa-user nav-item"></i>
+                </div>
+         
+            </div>
+            
+            <div class="cards"></div>
+         </div>
+
          <div class="music-player">music-player</div>
     </div>
 </body>
