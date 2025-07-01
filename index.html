@@ -30,7 +30,7 @@
             <div class="library">
                 <div class="options">
                     <div class="lib-option  nav-option">
-                         <image src="./assets/library_icon.png" />
+                         <img src="./assets/library_icon.png" />
                         <a href="#">Your library</a>
                     </div>
                     <div class="icons">
@@ -58,8 +58,8 @@
          <div class="main-content">
             <div class="sticky-nav">
                 <div class="sticky-nav-icons">
-                    <image src="./assets/backward_icon.png" />
-                    <image src="./assets/forward_icon.png" class="hide" />
+                    <img src="./assets/backward_icon.png" />
+                    <img src="./assets/forward_icon.png" class="hide" />
                 </div>
                 <div class="sticky-nav-options">
                     <button class="badge nav-item hide">Explore Premium</button>
@@ -200,13 +200,20 @@
 
 
          <div class="music-player">
-            <div class="album"></div>
+            <div class="album">
+                <img src="assets/day.jpg" alt="Song cover" class="album-cover">
+                <div class="album-info">
+                    <p class="song-title">Daylight</p>
+                    <p class="song-artist"> David Kushner</p>
+                </div>
+                 <i class="fa-solid fa-plus add-icon"></i>
+            </div>
 
             <div class="player">
                 <div class="player-controls">
                     <img src="./assets/player_icon1.png" class="player-control-icon">
                     <img src="./assets/player_icon2.png" class="player-control-icon">
-                    <img src="./assets/player_icon3.png" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1;height: 2rem;">
                     <img src="./assets/player_icon4.png" class="player-control-icon">
                     <img src="./assets/player_icon5.png" class="player-control-icon">
                 </div>
@@ -217,8 +224,13 @@
                     <span class="tot-time">03:23</span>
                 </div>
             </div>
-
-            <div class="controls"></div>
+            <div class="controls">
+                <i class="fa-regular fa-square-caret-right"></i>
+                <i class="fa-solid fa-microphone"></i>
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-volume-low  fa"></i>
+                <input type="range" class="volume-bar" />
+            </div>
          </div>
     </div>
 </body>
