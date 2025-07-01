@@ -9,7 +9,7 @@ It's a personal practice project to improve my UI development skills and underst
 
 - Responsive UI
 - Sidebar menu with icons
-- Uses Font Awesome iconS
+- Uses Font Awesome icons
 
 ---
 
